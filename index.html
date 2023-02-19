@@ -5,17 +5,51 @@
 <title>VapinCat</title>
 	
 <style>
+* {
+	color: #efefef;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 5vh;
+}
+
 body {
 	background-color: #3d3350
+}
+
+#container {
+	width: 100%;
+	text-align: center;
+}
+
+#container * {
+	display: inline-block;
+}
+
+#page {
+	padding-top: 100px;
+}
+
+#page * {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.link {
+	margin-bottom: -5px !important;
+	text-decoration: None;
+	font-size: 3vh;
+	color: #6f6fac;
 }
 </style>
 </head>
 <body>
 
-<div style="text-align: center;">
-	<span style="font-family: Helvetica; font-weight: 50;">
-		VapinCat's Page
-	</span>
+<div id="container">
+	<div id="page">
+		<span>VapinCat's Page</span>
+		<a class="link" href="https://youtube.com/VapinCat">YouTube</a>
+		<a class="link" href="https://github.com/VapingCat">GitHub</a>
+	</div>
 </div>
 
 <body>
